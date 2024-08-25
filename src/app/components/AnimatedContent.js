@@ -1,26 +1,17 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
 
-export default function AnimatedContent({ children }) {
+const AnimatedContent = ({ children }) => {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    const container = containerRef.current;
-
-    gsap.fromTo(
-      container.querySelectorAll('[data-gsap="slide-up"]'),
-      { y: 100, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1, stagger: 0.5 }
-    );
-
-    gsap.fromTo(
-      container.querySelectorAll('[data-gsap="slide-left"]'),
-      { x: -100, opacity: 0 },
-      { x: 0, opacity: 1, duration: 1 }
-    );
+    if (containerRef.current) {
+      containerRef.current.style.opacity = '1';
+    }
   }, []);
 
-  return <div ref={containerRef}>{children}</div>;
-}
+  return <div ref={containerRef} style={{ opacity: 0, transition: 'opacity 0.5s ease' }}>{children}</div>;
+};
+
+export default AnimatedContent;
