@@ -50,7 +50,7 @@ export default function Home() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-3xl sm:text-2xl font-semibold mb-4">WRITING</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-4">WRITING</h2>
             <p className="mb-4 text-lg">
               In 2018, I decided to pursue a life-long dream of writing
               a novel and started working on <a href="https://www.penguinrandomhouse.ca/books/669723/wrong-side-of-the-court-by-hn-khan/9780735270893" className="text-yellow-400 hover:underline">Wrong Side of the
@@ -68,7 +68,7 @@ export default function Home() {
           </section>
 
           <section>
-            <h2 className=" text-3xl sm:text-2xl mb-4 font-semibold">GET IN TOUCH</h2>
+            <h2 className=" text-xl sm:text-2xl mb-4 font-semibold">GET IN TOUCH</h2>
             <p className="mb-4 text-lg">
               Reach out about design projects, writing, or
               other interesting ways to work together.
