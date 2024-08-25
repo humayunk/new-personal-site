@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sen': ['var(--font-sen)'],
-        'stolen-hand': ['var(--font-stolen-hand)'],
+        'major-mono': ['var(--font-major-mono-display)'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -18,5 +18,14 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.constructivist': {
+          fontFeatureSettings: '"salt" 1, "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "ss05" 1, "ss06" 1, "ss07" 1, "ss08" 1',
+        },
+      }
+      addUtilities(newUtilities)
+    }
+  ],
 };

@@ -4,9 +4,9 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col items-center">
+    <main className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col items-center font-sen">
       <div className="max-w-2xl w-full px-4 sm:px-6 md:px-8 lg:px-24">
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-4">
           <Image
             src="/avatar.png"
             alt="Humayun K."
@@ -14,7 +14,9 @@ export default function Home() {
             height={100}
           />
         </div>
-        <h1 className="font-stolen-hand text-4xl sm:text-5xl md:text-6xl mb-6 text-center">HUMAYUN K.</h1>
+        <h1 className="font-major-mono text-4xl tracking-tighter sm:text-5xl md:text-6xl mb-8 text-center">
+          Humayun K<span className="tracking-tighter">.</span>
+        </h1>
 
         <div>
           <p className="mb-8 text-lg">
@@ -25,7 +27,9 @@ export default function Home() {
           </p>
 
           <section className="mb-8">
-            <h2 className="font-stolen-hand text-3xl sm:text-4xl mb-4">ABOUT</h2>
+            <h2 className=" text-xl font-semibold sm:text-2xl mb-4">
+              ABOUT ME
+            </h2>
             <p className="mb-4 text-lg">
               For the past ~5 years, I&apos;ve been working as a product
               design consultant for startups like <a href="https://www.classdojo.com" className="text-yellow-400 hover:underline">ClassDojo</a>,
@@ -46,7 +50,7 @@ export default function Home() {
           </section>
 
           <section className="mb-8">
-            <h2 className="font-stolen-hand text-3xl sm:text-4xl mb-4">WRITING</h2>
+            <h2 className="text-3xl sm:text-2xl font-semibold mb-4">WRITING</h2>
             <p className="mb-4 text-lg">
               In 2018, I decided to pursue a life-long dream of writing
               a novel and started working on <a href="https://www.penguinrandomhouse.ca/books/669723/wrong-side-of-the-court-by-hn-khan/9780735270893" className="text-yellow-400 hover:underline">Wrong Side of the
@@ -64,7 +68,7 @@ export default function Home() {
           </section>
 
           <section>
-            <h2 className="font-stolen-hand text-3xl sm:text-4xl mb-4">GET IN TOUCH</h2>
+            <h2 className=" text-3xl sm:text-2xl mb-4 font-semibold">GET IN TOUCH</h2>
             <p className="mb-4 text-lg">
               Reach out about design projects, writing, or
               other interesting ways to work together.

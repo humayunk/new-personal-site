@@ -1,21 +1,15 @@
 'use client';
 
-import { Sen } from "next/font/google";
-import localFont from "next/font/local";
+import { Sen, Major_Mono_Display } from "next/font/google";
 import "./globals.css";
 import Head from "./components/Head";
-
-const sen = Sen({ subsets: ["latin"], variable: '--font-sen' });
-const stolenHand = localFont({
-  src: './fonts/StolenHand-Regular.otf',
-  variable: '--font-stolen-hand'
-});
+import { majorMonoDisplay, sen } from './fonts'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${majorMonoDisplay.variable} ${sen.variable}`}>
       <Head />
-      <body className={`${sen.variable} ${stolenHand.variable} font-sen`}>
+      <body className="font-sen">
         {children}
       </body>
     </html>
