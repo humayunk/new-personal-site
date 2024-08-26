@@ -1,28 +1,30 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
+import { metadata } from './metadata';
+
+export { metadata };
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col items-center font-sen">
+    <main className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8 lg:p-12 pb-20 flex flex-col items-center font-sen">
       <div className="max-w-2xl w-full px-4 sm:px-6 md:px-8 lg:px-24">
         <div className="flex justify-center mb-4">
           <Image
             src="/avatar.png"
             alt="Humayun K."
-            width={100}
-            height={100}
+            width={120}
+            height={120}
           />
         </div>
-        <h1 className="font-major-mono text-4xl tracking-tighter sm:text-5xl md:text-6xl mb-8 text-center">
+        <h1 className="font-major-mono text-4xl tracking-tighter sm:text-4xl md:text-6xl mb-8 text-center">
           Humayun K<span className="tracking-tighter">.</span>
         </h1>
 
         <div>
           <p className="mb-8 text-lg">
-            Hi, I&apos;m Humayun Khan. I&apos;m a designer, startup builder,
-            and writer. I run a design consultancy and product
-            studio called <a href="https://studiomaya.io" className="text-yellow-400 hover:underline">Studio Maya</a>. I&apos;m currently based in
+            Hi, I&apos;m Humayun Khan. I&apos;m a freelance product designer, startup builder,
+            and writer. I&apos;m currently based in
             Montreal.
           </p>
 
@@ -86,6 +88,7 @@ export default function Home() {
                 LinkedIn
                 <ArrowUpRightIcon className="w-4 h-4 ml-1" />
               </Link>
+
             </div>
           </section>
         </div>

@@ -35,3 +35,16 @@ body {
     font-feature-settings: "salt" 1, "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "ss05" 1, "ss06" 1, "ss07" 1, "ss08" 1;
   }
 }
+
+ol, ul {
+  list-style-position: outside;
+  padding-left: 1.25em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+li > p {
+  display: inline;
+}
