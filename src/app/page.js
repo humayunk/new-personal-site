@@ -84,8 +84,8 @@ export default function Home() {
                 Twitter
                 <ArrowUpRightIcon className="w-4 h-4 ml-1" />
               </Link>
-              <Link href="https://linkedin.com/in/khanhumayun" className="text-yellow-400 hover:underline flex items-center" target="_blank" rel="noopener noreferrer">
-                LinkedIn
+              <Link href="https://github.com/humayunk" className="text-yellow-400 hover:underline flex items-center" target="_blank" rel="noopener noreferrer">
+                Github
                 <ArrowUpRightIcon className="w-4 h-4 ml-1" />
               </Link>
 
