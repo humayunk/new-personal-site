@@ -23,8 +23,7 @@ export default function Home() {
 
         <div>
           <p className="mb-8 text-lg">
-            Hi, I&apos;m Humayun Khan. I&apos;m a design engineer, startup builder,
-            and author. I&apos;m currently based in
+            Hi, I&apos;m Humayun Khan. I&apos;m a PM who writes, designs and codes. I&apos;m currently based in
             Montreal.
           </p>
 
@@ -33,7 +32,7 @@ export default function Home() {
               ABOUT ME
             </h2>
             <p className="mb-4 text-lg">
-              For the past ~5 years, I&apos;ve been working as a product
+              For the past ~5 years, I&apos;ve been working as a product +
               design consultant for startups like <a href="https://www.classdojo.com" className="text-yellow-400 hover:underline">ClassDojo</a>,
               <a href="https://www.ycombinator.com/companies/ruth-health" className="text-yellow-400 hover:underline"> RuthHealth (YC 21)</a> and enterprise companies like <a href="https://agorocarbonalliance.com/" className="text-yellow-400 hover:underline"> Agoro
               Carbon Alliance</a>, <a href="https://www.appliedmaterials.com/" className="text-yellow-400 hover:underline">Applied Materials</a>, and <a href="https://www.ambrygen.com/" className="text-yellow-400 hover:underline">Ambry Genetics</a>.
