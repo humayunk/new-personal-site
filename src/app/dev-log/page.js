@@ -8,6 +8,7 @@ async function getDevLogEntries() {
       content_type: 'devLog',
       order: '-fields.date',
     });
+    console.log('Contentful response:', JSON.stringify(response, null, 2));
     return response.items;
   } catch (error) {
     console.error('Error fetching dev log entries:', error);
@@ -30,9 +31,11 @@ export default async function DevLogPage() {
           />
         </div>
         <h1 className="font-major-mono text-4xl tracking-tighter sm:text-5xl md:text-6xl mb-12 text-center">DevLog</h1>
-        <div className="space-y-8">
-          {entries.map((entry) => (
-            <div key={entry.sys.id} className="border-l-2 border-yellow-400 pl-4">
+        <div className="space-y-16 relative">
+          <div className="absolute left-2 top-4 bottom-0 w-0.5 bg-yellow-400"></div>
+          {entries.map((entry, index) => (
+            <div key={entry.sys.id} className="pl-8 relative">
+              <div className="absolute left-0 top-1 w-4 h-4 bg-yellow-400 rounded-full z-10" style={{ transform: 'translateX(4%)' }}></div>
               <h2 className="text-xl font-semibold mb-2">{entry.fields.title}</h2>
               <p className="text-sm text-gray-400 mb-2">
                 {new Date(entry.fields.date).toLocaleDateString()}
