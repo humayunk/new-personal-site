@@ -2,16 +2,21 @@ import Link from 'next/link';
 import Image from 'next/image';
 import client from '../lib/contentful';
 
+export const revalidate = 0;
+
 async function getBlogPosts() {
   try {
+    console.log('Fetching blog posts...');
     const response = await client.getEntries({
       content_type: 'blogPage',
       order: '-fields.date',
     });
-    console.log('Contentful response:', response);
+    console.log('Contentful response:', JSON.stringify(response, null, 2));
     return response.items;
   } catch (error) {
     console.error('Error fetching blog posts:', error);
+    console.error('Error details:', error.response?.data);
+    console.error('Request config:', error.config);
     throw error;
   }
 }
