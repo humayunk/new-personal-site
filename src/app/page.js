@@ -56,7 +56,7 @@ export default function Home() {
           <section className="mb-8">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">WRITING</h2>
             <p className="mb-4 text-lg">
-              In 2018, I dove into novel writing with no prior training. The result? <a href="https://www.penguinrandomhouse.ca/books/675377/wrong-side-of-the-court-by-h-n-khan/9780735270879" className="text-yellow-400 hover:underline">"Wrong Side of the Court"</a> - a multi-award nominated book that took me on a wild ride through the publishing industry.
+              In 2018, I dove into novel writing with no prior training. The result? <a href="https://www.penguinrandomhouse.ca/books/675377/wrong-side-of-the-court-by-h-n-khan/9780735270879" className="text-yellow-400 hover:underline">&ldquo;Wrong Side of the Court&rdquo;</a> - a multi-award nominated book that took me on a wild ride through the publishing industry.
             </p>
             <p className="mb-4 text-lg">
               Now, I&apos;m co-writing its film adaptation with the talented <a href="https://www.arigunnarsson.net/wrongsideofthecourt" className="text-yellow-400 hover:underline">Ari Gunnarsson</a>.
