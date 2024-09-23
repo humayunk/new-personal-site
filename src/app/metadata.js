@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Dev Log | Humayun K.",
-  description: "Development log and updates from Humayun K.",
+  title: "Humayun Khan",
+  description: "Designer | Builder | Author",
   icons: {
     icon: [
       { url: '/favicons/favicon.ico' },

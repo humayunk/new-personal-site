@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <Head />
       <body className={`font-sen ${sen.className}`}>
         {children}
-        <FloatingNavBar />
+        {/* <FloatingNavBar /> */}
       </body>
     </html>
   );
