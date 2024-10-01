@@ -4,7 +4,6 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
 import { metadata } from './metadata';
 
 export { metadata };
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white p-4 sm:p-6 md:p-8 lg:p-12 pb-20 flex flex-col items-center font-sen">
@@ -32,37 +31,36 @@ export default function Home() {
               ABOUT ME
             </h2>
           <p className="mb-4 text-lg">
-            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline">Studio Maya</a>, a product studio, while working on new writing projects.
+            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, consulting as a <a href="https://www.humayun.xyz" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer"> product designer</a>, and working on new writing projects.
           </p>
           <p className="mb-4 text-lg">
             My journey has spanned various roles in tech and product design:
           </p>
           <p className="mb-4 text-lg">
-
-            • Product design consultant for startups like <a href="https://www.classdojo.com" className="text-yellow-400 hover:underline">ClassDojo</a> and <a href="https://www.ycombinator.com/companies/ruth-health" className="text-yellow-400 hover:underline">RuthHealth (YC 21)</a> and
-            enterprise companies like <a href="https://agorocarbonalliance.com/" className="text-yellow-400 hover:underline">Agoro Carbon Alliance</a>, <a href="https://www.appliedmaterials.com/" className="text-yellow-400 hover:underline">Applied Materials</a>, and <a href="https://www.ambrygen.com/" className="text-yellow-400 hover:underline">Ambry Genetics</a>
+            • Product design consultant for startups like <a href="https://www.classdojo.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">ClassDojo</a> and <a href="https://www.ycombinator.com/companies/ruth-health" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">RuthHealth (YC 21)</a> and
+            enterprise companies like <a href="https://agorocarbonalliance.com/" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Agoro Carbon Alliance</a>, <a href="https://www.appliedmaterials.com/" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Applied Materials</a>, and <a href="https://www.ambrygen.com/" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Ambry Genetics</a>
           </p>
           <p className="mb-4 text-lg">
-            • Product Manager at <a href="https://xello.world" className="text-yellow-400 hover:underline">Xello</a>, focusing on career readiness for students
+            • Product Manager at <a href="https://xello.world" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Xello</a>, focusing on career readiness for students
           </p>
           <p className="mb-4 text-lg">
-            • Design Lead at <a href="https://roadmunk.com" className="text-yellow-400 hover:underline">Roadmunk</a> (acquired by Tempo) and Tiny Hearts (acquired by Shopify)
+            • Design Lead at <a href="https://roadmunk.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Roadmunk</a> (acquired by Tempo) and Tiny Hearts (acquired by Shopify)
           </p>
           <p className="mb-4 text-lg">
-          • Content Marketer at <a href="https://www.shopify.com" className="text-yellow-400 hover:underline">Shopify</a>.
+          • Content Marketer at <a href="https://www.shopify.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Shopify</a>.
           </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">WRITING</h2>
             <p className="mb-4 text-lg">
-              In 2018, I dove into novel writing with no prior training. The result? <a href="https://www.penguinrandomhouse.ca/books/675377/wrong-side-of-the-court-by-h-n-khan/9780735270879" className="text-yellow-400 hover:underline">Wrong Side of the Court</a>, a multi-award nominated book that took me on a wild ride through the publishing industry.
+              In 2018, I dove into novel writing with no prior training. The result? <a href="https://www.penguinrandomhouse.ca/books/675377/wrong-side-of-the-court-by-h-n-khan/9780735270879" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Wrong Side of the Court</a>, a multi-award nominated book that took me on a wild ride through the publishing industry.
             </p>
             <p className="mb-4 text-lg">
-              Now, I&apos;m co-writing its film adaptation with the talented <a href="https://www.arigunnarsson.net/wrongsideofthecourt" className="text-yellow-400 hover:underline">Ari Gunnarsson</a>.
+              Now, I&apos;m co-writing its film adaptation with the talented <a href="https://www.arigunnarsson.net/wrongsideofthecourt" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Ari Gunnarsson</a>.
             </p>
             <p className="mb-4 text-lg">
-              Lastly, check out my <a href="https://humayunsnewsletter.substack.com" className="text-yellow-400 hover:underline">newsletter</a>, where I explore the intersections of design, technology, and storytelling.
+              Lastly, check out my <a href="https://humayunsnewsletter.substack.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">newsletter</a>, where I explore the intersections of design, technology, and storytelling.
             </p>
           </section>
 
