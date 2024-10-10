@@ -22,7 +22,7 @@ export default function Home() {
 
         <div>
           <p className="mb-8 text-lg">
-            Hi, I&apos;m Humayun Khan. I&apos;m a designer, founder, and writer based in
+            Hi, I&apos;m Humayun Khan. I&apos;m a product manager, builder, and author based in
             Montreal.
           </p>
 
@@ -31,7 +31,7 @@ export default function Home() {
               ABOUT ME
             </h2>
           <p className="mb-4 text-lg">
-            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, consulting as a <a href="https://www.humayun.xyz" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer"> product designer</a>, and working on new writing projects.
+            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, and working on new writing projects.
           </p>
           <p className="mb-4 text-lg">
             My journey has spanned various roles in tech and product design:
@@ -67,7 +67,7 @@ export default function Home() {
           <section>
             <h2 className=" text-xl sm:text-2xl mb-4 font-semibold">GET IN TOUCH</h2>
             <p className="mb-4 text-lg">
-              Reach out about design projects, writing, or
+              Reach out about product roles, writing, or
               other interesting ways to work together.
             </p>
             <div className="flex space-x-4 mb-8">
