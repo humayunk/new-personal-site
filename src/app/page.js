@@ -22,7 +22,7 @@ export default function Home() {
 
         <div>
           <p className="mb-8 text-lg">
-            Hi, I&apos;m Humayun Khan. I&apos;m a design engineer, builder, and author based in
+            Hi, I&apos;m Humayun Khan. I&apos;m a designer, builder, and author based in
             Montreal.
           </p>
 
