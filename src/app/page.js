@@ -31,7 +31,7 @@ export default function Home() {
               ABOUT ME
             </h2>
           <p className="mb-4 text-lg">
-            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, and working on new writing projects, like <a href="https://www.humayunsnewsletter.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">this newsletter</a>.
+            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, and working on new writing projects, like <a href="https://www.humayunsnewsletter.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">this newsletter</a> and taking on select <a href="https://www.humayun.xyz" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">design projects</a>.
           </p>
           <p className="mb-4 text-lg">
             My journey has spanned various roles in tech and product design:
