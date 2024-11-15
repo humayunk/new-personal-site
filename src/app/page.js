@@ -75,7 +75,7 @@ export default function Home() {
           <section>
             <h2 className=" text-xl sm:text-2xl mb-4 font-semibold">GET IN TOUCH</h2>
             <p className="mb-4 text-lg">
-              Reach out about product roles, writing, or
+              Reach out about product roles, design projects, writing, or
               other interesting ways to work together.
             </p>
             <div className="flex space-x-4 mb-8">
