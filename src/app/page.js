@@ -27,16 +27,25 @@ export default function Home() {
 
           <section className="mb-8">
             <h2 className=" text-xl font-semibold sm:text-2xl mb-4">
-              ABOUT ME
+              WHAT I'M UP TO
             </h2>
           <p className="mb-4 text-lg">
-            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, and working on new writing projects, like <a href="https://www.humayunsnewsletter.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">this newsletter</a> and taking on select <a href="https://www.humayun.xyz" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">design projects</a>.
+            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, where I'm currently building an ifs-inspired journaling app.
           </p>
+          <p className="mb-4 text-lg">
+            My first product <a href="https://www.querycat.co" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">QueryCat</a> peaked at $300MRR before I called it quits.
+          </p>
+          <p className="mb-4 text-lg">
+            I also built this MVP of <a href="https://www.learnfingo.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Fingo</a>, duolingo for finance, which I designed and built alongside four others while completing a <a href="https://www.lewagon.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">dev bootcamp</a> after a decade of wondering if I could learn to code.
+          </p>
+          <h2 className=" text-xl font-semibold sm:text-2xl mb-4">
+              10 YEARS IN TECH
+            </h2>
           <p className="mb-4 text-lg">
             My journey has spanned various roles in tech and product design:
           </p>
           <p className="mb-4 text-lg">
-            • Product design consultant for startups like <a href="https://www.classdojo.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">ClassDojo</a> and <a href="https://www.ycombinator.com/companies/ruth-health" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">RuthHealth (YC 21)</a> and
+            • Product design consultant through <a href="https://www.toptal.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Toptal</a> for startups like <a href="https://www.classdojo.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">ClassDojo</a> and <a href="https://www.ycombinator.com/companies/ruth-health" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">RuthHealth (YC 21)</a> and
             enterprise companies like <a href="https://agorocarbonalliance.com/" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Agoro Carbon Alliance</a>, <a href="https://www.appliedmaterials.com/" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Applied Materials</a>, and <a href="https://www.ambrygen.com/" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Ambry Genetics</a>
           </p>
           <p className="mb-4 text-lg">
