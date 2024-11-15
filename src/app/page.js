@@ -68,7 +68,7 @@ export default function Home() {
               Now, I&apos;m co-writing its film adaptation with the talented <a href="https://www.arigunnarsson.net/wrongsideofthecourt" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Ari Gunnarsson</a>.
             </p>
             <p className="mb-4 text-lg">
-              Lastly, check out my <a href="https://humayunsnewsletter.substack.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">newsletter</a>, where I explore the intersections of design, technology, and storytelling.
+              Lastly, check out my <a href="https://diaryofamaker.substack.com" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">newsletter</a>, where I explore the intersections of design, technology, and storytelling.
             </p>
           </section>
 
