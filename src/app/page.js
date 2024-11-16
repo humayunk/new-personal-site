@@ -30,7 +30,7 @@ export default function Home() {
               WHAT I&apos;M UP TO
             </h2>
           <p className="mb-4 text-lg">
-            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, where I&apos;m currently building an ifs-inspired journaling app.
+            I&apos;m currently bootstrapping <a href="https://www.studiomaya.io" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">Studio Maya</a>, a product studio, where I&apos;m building an ifs-inspired journaling app while taking on occasional product design and strategy work.
           </p>
           <p className="mb-4 text-lg">
             My first product <a href="https://www.querycat.co" className="text-yellow-400 hover:underline" target="_blank" rel="noopener noreferrer">QueryCat</a> peaked at $300MRR before I called it quits.
